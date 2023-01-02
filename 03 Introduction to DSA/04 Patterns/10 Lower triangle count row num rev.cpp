@@ -1,20 +1,22 @@
 /*
 Question:
 Write a program to print following pattern:
-             123
-             123
-             123
+             1
+             21
+             321
 */
 #include <iostream>
 using namespace std;
 int main() {
-    int n,i,j;
+    int n,i,j,count,num=1;
     cin>>n;
     i=0;
     while(i<n){
         j=0;
-        while(j<n){
-            cout<<j+1;
+        count=num+i;
+        while(j<=i){
+            cout<<count<<" ";
+            count--;
             j++;
         }
         cout<<endl;
