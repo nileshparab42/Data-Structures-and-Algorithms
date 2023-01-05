@@ -1,6 +1,6 @@
 ![Cover image](https://github.com/nileshparab42/Data-Structures-and-Algorithms/blob/master/assets/DSA%20Cover.png)
 
-# Data-Structures-and-Algorithms
+# Data Structures and Algorithms
 
 Simple overview of use/purpose.
 
