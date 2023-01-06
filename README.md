@@ -2,7 +2,7 @@
 
 # Data Structures and Algorithms
 
-Simple overview of use/purpose.
+Learn data structures and algorithms in six months.
 
 ## Description
 
@@ -13,8 +13,6 @@ An in-depth paragraph about your project and overview of use.
 ### Language
 
 * Cpp
-* C
-* Python
 
 ## Help
 
