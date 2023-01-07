@@ -1,4 +1,4 @@
-![Cover image](https://github.com/nileshparab42/Data-Structures-and-Algorithms/blob/master/assets/DSA%20Cover.png)
+![Cover image](https://github.com/nileshparab42/Data-Structures-and-Algorithms/blob/master/assets/DSA-Cover.png)
 
 # Data Structures and Algorithms
 
@@ -6,7 +6,8 @@ Learn data structures and algorithms in six months.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This GitHub repository is designed to introduce you to the fundamental concepts of data structures and algorithms and to help you develop the skills you need to implement and analyze these concepts in your programs.
+
 
 ## Getting Started
 
