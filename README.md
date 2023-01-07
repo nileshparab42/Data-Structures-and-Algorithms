@@ -2,7 +2,7 @@
 
 # Data Structures and Algorithms
 
-Learn data structures and algorithms in six months.
+The Data Structures and Algorithms repository aims to teach foundational computer science concepts.
 
 ## Description
 
