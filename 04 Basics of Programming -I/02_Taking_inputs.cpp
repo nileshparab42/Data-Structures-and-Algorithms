@@ -4,5 +4,5 @@ int main(){
     int a;
     cout<<"Enter number: ";
     cin>>a;
-    cout<<"You entered "<<a;
+    cout<<"You entered number "<<a;
 }
