@@ -5,7 +5,7 @@ int main(){
     cin>>count;
     for(int i=count; i>0; i--){
         for(int j=1; j<=i; j++){
-            cout<<"*";
+            cout<<"* ";
         }
         cout<<endl;
     }
