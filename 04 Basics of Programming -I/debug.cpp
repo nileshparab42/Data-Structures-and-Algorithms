@@ -6,5 +6,6 @@ int main() {
 	i=i+1;
 	cout<<i:
 	/*print i \*//i=i+1
+	//just tp
 	cout<<++i;
 }
