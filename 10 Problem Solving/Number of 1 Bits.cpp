@@ -32,7 +32,7 @@ Output: 31
 Explanation: The input binary string 11111111111111111111111111111101 has a total of thirty one '1' bits.
  
 Constraints:
-The input must be a binary string of length 32.
+The input must be a binary string of length 32...
 */
 
 class Solution {
