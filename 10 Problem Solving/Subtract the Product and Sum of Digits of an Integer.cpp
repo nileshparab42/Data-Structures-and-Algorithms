@@ -20,7 +20,7 @@ Sum of digits = 4 + 4 + 2 + 1 = 11
 Result = 32 - 11 = 21
  
 Constraints:
-1 <= n <= 10^5
+1 <= n <= 10^5.
 */
 
 class Solution {
