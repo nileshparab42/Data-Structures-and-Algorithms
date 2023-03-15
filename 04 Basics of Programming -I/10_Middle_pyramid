@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int count;//
+    int count;//hi
     cin>>count;
     for(int i=count; i>0; i--){
         //We can also use count-j if first loop is incremental loops 5
