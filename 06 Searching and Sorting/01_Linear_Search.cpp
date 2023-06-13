@@ -12,7 +12,8 @@ int linearSearch(vector<int> arr,int key){
 
 int main(){
     vector<int> arr{6,7,4,3,2,1};
-    int key=11;
+    int key;
+    cin>>key;
     cout<<"Element is at: "<<linearSearch(arr,key);
     return 0;
 }
