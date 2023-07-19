@@ -1,4 +1,7 @@
 // Arrays uses pass by reference behavior with functions
+#include<iostream>
+#include<string.h>
+using namespace std;
 
 void setinit(int arr[],int size,int value){
     for(int i=0;i<size;i++){
@@ -6,9 +9,6 @@ void setinit(int arr[],int size,int value){
     }
 }
 
-#include<iostream>
-#include<string.h>
-using namespace std;
 int main(){
     int arr[2]={1,2};
     for(auto i:arr){
