@@ -14,7 +14,7 @@ void purmutation(string& s,int i){
 }
 
 int main(){
-    string s="abc";
+    string s="NVRM";
     purmutation(s,0);
     return 0;
 }                            
