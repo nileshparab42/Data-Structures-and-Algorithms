@@ -82,7 +82,6 @@ class graph{
     void dijkstraSp(int src,int n){
         vector<int> dist(n,INT_MAX);
         set<pair<int,int>> st;
-
         st.insert({0,src});
         dist[src]=0;
 
@@ -107,10 +106,7 @@ class graph{
         for(int i=0;i<n;i++){
             cout<<dist[i]<<" ";
         }
-
     }
-
-
 };
 
 

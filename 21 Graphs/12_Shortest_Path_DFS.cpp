@@ -46,12 +46,9 @@ class graph{
 
     void shDFS(stack<int>& st,int n){
         vector<int> dist(n,INT_MAX);
-
         int node = st.top();
         st.pop();
-        dist[node] = 0;
-
-        
+        dist[node] = 0;        
         if(dist[node]!=INT_MAX){
                 for(auto neb:adj[node]){
                     if(dist[node] + neb.second < dist[neb.first]){
@@ -59,8 +56,6 @@ class graph{
                     }
                 }
             }
-        
-
         while(!st.empty()){
             int node = st.top();
             st.pop();
