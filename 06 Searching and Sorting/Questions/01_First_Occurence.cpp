@@ -3,30 +3,27 @@
 using namespace std;
 int FirstOcc(vector<int> arr,int key){
     int s=0;
+    int ans=-1;
     int e=arr.size()-1;
-    int mid = s+(e-s)/2;
-    int pos=-1;
-    
-    while (s <= e)
-    {
+    int mid;
+    while(s <= e){
+        mid=s+((e-s)/2);
         if(arr[mid]==key){
-            pos=mid;
+            ans=mid;
             e=mid-1;
         }
-        else if (arr[mid]<key)
-        {
+        else if(arr[mid]<key){
             s=mid+1;
         }
-        else{
+        else if(arr[mid]>key){
             e=mid-1;
         }
-        mid = s+(e-s)/2;
     }
-    return pos;
+    return ans;
 }
 
 int main(){
-    vector<int> arr{1,3,4,6,7,7,7,7,9};
+    vector<int> arr{1,3,9};
     int key=7;
     cout<<"Element is at: "<<FirstOcc(arr,key);
     return 0;
