@@ -38,3 +38,43 @@ public:
           return ans;
     }
 };
+
+//Practice
+class Solution {
+public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+          vector<int> ans;
+          int m=matrix.size();
+          int n=matrix[0].size();
+          int z=m*n;
+          int ht=0;
+          int vr=n-1;
+          int hb=m-1;
+          int vl=0;
+
+          while(z>0){
+              cout<<"z="<<z<<endl;
+              for(int i=vl;i<=vr&&z>0;i++){
+                  ans.push_back(matrix[ht][i]);
+                  z--;
+              }
+              ht++;
+              for(int i=ht;i<=hb&&z>0;i++){
+                  ans.push_back(matrix[i][vr]);
+                  z--;
+              }
+              vr--;
+              for(int i=vr;i>=vl&&z>0;i--){
+                  ans.push_back(matrix[hb][i]);
+                  z--;
+              }
+              hb--;
+              for(int i=hb;i>=ht&&z>0;i--){
+                  ans.push_back(matrix[i][vl]);
+                  z--;
+              }
+              vl++;
+          }
+          return ans;
+    }
+};
