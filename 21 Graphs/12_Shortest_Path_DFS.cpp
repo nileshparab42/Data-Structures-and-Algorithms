@@ -28,7 +28,6 @@ class graph{
                 cout<<"("<<neb.first<<","<<neb.second<<")";
             }
             cout<<endl;
-
         }
     }
    
