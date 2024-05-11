@@ -13,7 +13,7 @@ This GitHub repository is designed to introduce you to the fundamental concepts 
 
 ### Language
 
-* Cpp
+* CPP
 
 ## Help
 
