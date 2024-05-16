@@ -17,7 +17,7 @@ This GitHub repository is designed to introduce you to the fundamental concepts 
 
 ## Help
 
-Any advise for common problems or issues.
+Any advise for common problems or issues
 ```
 command to run if program contains helper info
 ```
